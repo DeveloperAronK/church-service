@@ -1,0 +1,7 @@
+{
+  "name": "Church service",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite"
+}
