@@ -1,25 +1,23 @@
 import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar } from '@ionic/react';
-import ExploreContainer from '../components/ExploreContainer';
+import ServiceList from '../components/ServiceList';
 import './Home.css';
 
 const Home: React.FC = () => {
-  return (
-    <IonPage>
-      <IonHeader>
-        <IonToolbar>
-          <IonTitle>Blank</IonTitle>
-        </IonToolbar>
-      </IonHeader>
-      <IonContent fullscreen>
-        <IonHeader collapse="condense">
-          <IonToolbar>
-            <IonTitle size="large">Blank</IonTitle>
-          </IonToolbar>
-        </IonHeader>
-        <ExploreContainer />
-      </IonContent>
-    </IonPage>
-  );
+    return (
+        <IonPage>
+            <IonHeader translucent>
+                <IonToolbar>
+                    <IonTitle>தூய யோவான் ஆலயம் - ஆலடிவிளை.</IonTitle>
+                </IonToolbar>
+            </IonHeader>
+            <IonContent fullscreen>
+                &nbsp;
+                <IonTitle size="large" >ஆராதனை முறை</IonTitle>
+                &nbsp;
+                <ServiceList/>
+            </IonContent>
+        </IonPage>
+    );
 };
 
 export default Home;
