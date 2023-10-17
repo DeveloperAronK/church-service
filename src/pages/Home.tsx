@@ -12,7 +12,7 @@ const Home: React.FC = () => {
             </IonHeader>
             <IonContent fullscreen>
                 &nbsp;
-                <IonTitle size="large" >ஆராதனை முறை</IonTitle>
+                <IonTitle size="large" >ஆராதனை முறை ஒழுங்கு</IonTitle>
                 &nbsp;
                 <ServiceList/>
             </IonContent>
